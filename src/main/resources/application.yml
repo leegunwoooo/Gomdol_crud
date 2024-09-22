@@ -1,9 +1,10 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${DB_URL}
-    username: $root
-    password: $
+    url: jdbc:mysql://localhost:3306/gomdol
+    username: root
+    password:
+
 
   jpa:
     database: mysql
